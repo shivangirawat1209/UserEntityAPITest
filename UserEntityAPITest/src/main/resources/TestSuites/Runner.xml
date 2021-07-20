@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="UserEntityAPITest" >
+
+    <test name="GetUser">
+        <classes>
+            <class name="TestScripts.GetFindByUserId"/>
+        </classes>
+    </test>
+
+    <test name="AddUser">
+        <classes>
+            <class name="TestScripts.PostAddNewUser"/>
+        </classes>
+    </test>
+
+    <test name="DeleteUser">
+        <classes>
+            <class name="TestScripts.DeleteUser"/>
+        </classes>
+    </test>
+
+</suite>
